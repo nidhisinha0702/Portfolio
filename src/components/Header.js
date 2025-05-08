@@ -12,6 +12,7 @@ function Header({ darkMode, toggleDarkMode }) {
           <p>Full Stack Developer | Passionate about Tech</p>
         </div>
       </div>
+      <a href="/Nidhi_Kumari_CV.pdf" download target="_blank" rel="noopener noreferrer" className="resume-btn">Resume</a>
       <button onClick={toggleDarkMode} className="dark-mode-toggle">
         {darkMode ? '🌞' : '🌙'}
       </button>

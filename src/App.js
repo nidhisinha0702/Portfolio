@@ -1,6 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import Header from './components/Header'
 import './App.css';
+import About from './components/About';
+import Projects from './components/Project';
+import Contact from './components/Contact';
+import Footer from './components/Footer';
 
 function App() {
   const [darkMode, setDarkMode] = useState(false);
@@ -22,10 +26,11 @@ function App() {
     <div>
       <Header darkMode={darkMode} toggleDarkMode={toggleDarkMode} />
       <main className="main-content">
-        <section id="about"><h2>About Me</h2><p>I’m Nidhi, a tech enthusiast...</p></section>
-        <section id="projects"><h2>Projects</h2><p>Coming soon...</p></section>
-        <section id="contact"><h2>Contact</h2><p>Email: nsinha7295@gmail.com</p></section>
+        <About />
+        <Projects />
+        <Contact />
       </main>
+      <Footer />
     </div>
   );
 }

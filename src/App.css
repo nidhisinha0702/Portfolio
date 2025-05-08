@@ -17,3 +17,20 @@ body.dark-mode {
 section {
   margin-bottom: 100px;
 }
+
+.footer{
+  text-align: center;
+  padding: 1rem;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.dark-mode .footer {
+  background-color: #1e1e1e;
+  border-color: #444;
+  color: #e0e0e0;
+}
+
+.light-mode .footer{
+  background-color: #f0f0f0;
+  color: #222;
+}

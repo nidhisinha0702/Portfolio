@@ -35,4 +35,30 @@
     border: none;
     cursor: pointer;
   }
+
+  .resume-btn {
+    padding: 0.5rem 1rem;
+    background-color: var(--primary-color);
+    color: white;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s;
+    background-color: #007bff;
+  }
+  
+  body.light-mode .resume-btn {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  body.dark-mode .resume-btn {
+    background-color: #00bfff;
+    color: white;
+  }
+  
+  .resume-btn:hover {
+    background-color: #0056b3;
+  }
+  
   
